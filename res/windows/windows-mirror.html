@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>获取Windows版本及工具</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://img2.imgtp.com/2024/03/30/4GAAvHjc.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white; /* 将文字颜色设为白色 */
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            top: 0; /* 将容器置于顶部 */
+            width: 100%; /* 宽度100% */
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 1000; /* 确保弹窗在最上层 */
+        }
+        .image-container {
+            width: 100px; /* 调整图片容器宽度 */
+            margin: 30px auto; /* 图片容器居中并设置间距 */
+            text-align: center;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 999; /* 确保图片在弹窗之上 */
+        }
+        .image-container img {
+            width: 100%; /* 图片宽度100% */
+            display: block; /* 块级元素 */
+            cursor: pointer; /* 添加光标指示为手型 */
+        }
+        .image-container p {
+            margin: 5px 0 0; /* 文字上外边距 */
+            line-height: 1.2em; /* 设置行高为字体大小的1.2倍 */
+        }
+        .footer {
+            background-color: #5189FF; /* 设置底部按钮的背景颜色为#5189FF */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>获取Windows版本及工具</h1>
+    </div>
+
+    <!-- 新代码：添加图片 -->
+    <div class="image-container" onclick="window.location.href='https://www.bing.com'">
+        <img src="https://img2.imgtp.com/2024/03/31/SOVuyf7X.png" alt="点击跳转到 Bing">
+        <p>本站集成大量系统镜像，工具并保存于服务器，即使没有第三方软件也能下载</p>
+    </div>
+
+    <!-- 底部按钮 -->
+    <div class="footer">
+        <a href="https://img2.imgtp.com/2024/03/31/UWVG03Fa.jpg" target="_blank">赞助我们</a> | <a href="#">漏洞反馈</a> | <a href="https://img2.imgtp.com/2024/03/31/Oi4xA6Zk.svg" target="_blank">工作室</a>
+    </div>
+
+    <!-- JavaScript代码 -->
+    <script>
+        // 打开赞助我们弹窗
+        function openSponsorPopup() {
+            var popup = document.createElement('div');
+            popup.classList.add('popup');
+            popup.innerHTML = `
+                <img src="https://img2.imgtp.com/2024/03/31/UWVG03Fa.jpg" alt="赞助我们">
+                <span class="close-btn" onclick="closePopup()">X</span>
+            `;
+            document.body.appendChild(popup);
+        }
+
+        // 关闭弹窗
+        function closePopup() {
+            var popup = document.querySelector('.popup');
+            if (popup) {
+                popup.remove();
+            }
+        }
+    </script>
+</body>
+</html>
+<!-- 底部按钮 -->
+<div class="footer">
+    <a href="https://img2.imgtp.com/2024/03/31/UWVG03Fa.jpg" target="_blank">赞助我们</a> | 
+    <a href="https://img2.imgtp.com/2024/03/31/p2VoxQen.svg" target="_blank">漏洞反馈</a> | 
+    <a href="https://img2.imgtp.com/2024/03/31/Oi4xA6Zk.svg" target="_blank">工作室</a>
+</div>
