@@ -1,0 +1,2 @@
+祝你 Windows 开机蓝屏，Linux 开机 Kernel Panic ，macos 开机五国，服务器 iDRAC/ iLO/IPMI/KVM 全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路，防火墙全阻断，无线信道全冲突，压接网线全短路，bgp 全漏表，机柜全断电，raid 全爆炸，nas 数据全丢，光模块全炸，光纤全不通，光猫全烫手，电表全倒转，空开全烧穿。
+PHP 全 Fatal Error ，fileinfo 全装不上，npm/composer install 全报错，Laravel Mix 全报未知错误，服务器全部宕机，电脑开机报错，Linux rm -rf /*，数据库 Delete ，CN2 全绕路，线路全阻断，海外网站全被墙，服务器炸库，网关无响应，代理 500 ，网站 502 ，RAID 组几个一起炸几个，UPS 爆炸，一年到头 DDOS CC 不断，流量几千个 T ，并发上亿，ping 全超时，备案全重审，资源 404 ，SSL 全重定向，CDN 全不回源，爬虫三毫秒来你家一次但是收录零蛋，数据库超时。
